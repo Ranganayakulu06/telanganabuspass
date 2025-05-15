@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form action="./Welcomepage.html">
+            <img src="https://www.tgsrtc.telangana.gov.in/tsrtc-logo@5x.webp" alt="Telangana transpot logo"width="50px">
+            <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+            <h2>GENERAL BUS PASS APPLICATION</h2>
+               
+               <table width="800px">
+                <tr>
+                    <td>
+
+                    
+            <fieldset>
+                <legend style="font-size: 25px;">Applicant Details</legend>
+                <label for="user" >Name:</label>
+                <input type="text" name="username" id="user" > 
+                &nbsp &nbsp &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp
+                <label for="userfather" >Father's / Guardian's Name:</label>
+                <input type="text" name="fathername" id="userfather">
+
+                <br><br>
+
+                <label for="DOB" >Date of birth:</label>
+                <input type="text" name="DOB" id="DOB">
+
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp    
+
+                <label for="gender" >Gender:</label>
+                
+                 <input type="radio" name="gender" id="gender" value="male">
+
+                 <label for="gender" >Male</label>
+
+                <input type="radio" name="gender" id="gender" value="female">
+
+                <label for="gender" >Female</label>
+
+                <br><br>
+
+                <label for="age" >Age As on:</label>
+                <input type="text" name="age" id="age">
+
+                 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+
+                <label for="aadharno" >Aadhaar No:</label>
+                <input type="text" name="aadharno" id="aadharno">
+
+                <br><br>
+
+                <label for="number" >WhatsApp No:</label>
+                <input type="text" name="number" id="number">
+
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+                <label for="email" >E-mail Id:</label>
+                <input type="text" name="email" id="email">
+
+                <br><br>
+
+                <label for="photo" >Photo:</label>
+                <input type="file" name="photo" id="photo" accept=".jpg">
+                </td>
+                </tr>
+               </table>
+            </fieldset>
+
+            <table width="800px">
+                <tr>
+                    <td>
+            <fieldset>
+                <legend style="font-size: 25px;">Residential Address Details</legend>
+                <label for="address">Applicant's Address:</label>
+               <textarea name="address" id="address"></textarea>
+
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+               
+                <label for="district">District:</label>
+                <select name="district" id="district">
+                <option value="" selected disabled>...Select...</option>   
+                <option value="Medak"> Medak</option>
+                <option value="Nalgonda">Nalgonda</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mahabubnaga">Mahabubnaga</option>
+                   </select> 
+
+                   <br><br>
+
+                <label for="mandel">Mandel:</label>
+                <select name="mandel" id="mandel">
+                <option value="" selected disabled>...Select...</option>   
+                <option value="Amberpet"> Amberpet</option>
+                <option value="Ameerpet">Ameerpet</option>
+                <option value="Charminar">Charminar</option>
+                <option value="Golconda">Golconda</option>
+                   </select> 
+
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+               
+                  
+                <label for="village">Village:</label>
+                <select name="village" id="village">
+                <option value="" selected disabled>...Select...</option>   
+                <option value="Drainage Lingampally"> Drainage Lingampally</option>
+                <option value="Malakpet">Malakpet</option>
+                <option value="Daira">Daira</option>
+                <option value="Nampally">Nampally</option>
+                   </select> 
+
+                   <br><br>
+
+                     <label for="pincode" >Pincode:</label>
+                <input type="text" name="pincode" id="pincode">
+            </fieldset>
+            </td>
+            </tr>
+            </table>
+
+            <table width="800px">
+                <tr>
+                    <td>
+            <fieldset>
+                <legend style="font-size: 25px;">Pass Type Details</legend>
+
+                <label for="city">City:</label>
+                <select name="city" id="city">
+                <option value="" selected disabled>...Select...</option>   
+                <option value="Hyderabad">Hyderabad</option>
+                   </select> <br>
+
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                   <label for="passtype">Pass Type:</label>
+                <select name="passtype" id="passtype">
+                <option value="" selected disabled>...Select...</option>   
+                <option value="GREATER PASS"> GREATER PASS</option>
+                <option value="GENERAL ORDINARY PASS MONTLY">GENERAL ORDINARY PASS MONTLY</option>
+                <option value="ORDINARY PASS">ORDINARY PASS</option>
+                <option value="METRO EXPRESS PASS">METRO EXPRESS PASS</option>
+                   </select> 
+
+                     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+               
+ 
+                <label for="district">From Place District:</label>
+                <select name="district" id="district">
+                <option value="" selected disabled>...Select...</option>   
+                <option value="Medak"> Medak</option>
+                <option value="Nalgonda">Nalgonda</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mahabubnaga">Mahabubnaga</option>
+                   </select> 
+
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                   <label for="district">To Place District:</label>
+                <select name="district" id="district">
+                <option value="" selected disabled>...Select...</option>   
+                <option value="Medak"> Medak</option>
+                <option value="Nalgonda">Nalgonda</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mahabubnaga">Mahabubnaga</option>
+                   </select> 
+                
+                <br><br>
+
+                <label for="fromplace" >From Place:</label>
+                <input type="text" name="fromplace" id="fromplace">
+
+                 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                 &nbsp &nbsp &nbsp &nbsp &nbsp 
+                <label for="toplace" >To Place:</label>
+                <input type="text" name="toplace" id="toplace">
+
+                   <br><br>
+
+                <label for="route">Route (From--via--To</label>
+                <select name="route" id="route">
+                <option value="route" Selected disabled>...Select...</option>
+                <option value="Medak To Nalgonda"> Medak To Nalgonda</option>
+                <option value="Nalgonda To Medek">Nalgonda To Medek</option>
+                <option value="Hyderabad To Mahabubnaga">Hyderabad To Mahabubnaga</option>
+                <option value="Mahabubnaga To Hyderabad">Mahabubnaga To Hyderabad</option>
+                </select>
+            </fieldset>
+               </td>
+                </tr>
+            </table>
+
+            <table width="800px">
+                <tr>
+                    <td>
+
+                    
+            <fieldset>
+                <legend style="font-size: 25px;">Mode of Payment & Pass Collection</legend>
+
+                <label for="payment">Payment Mode:</label>
+                <select name="payment" id="payment">
+                <option value="" selected disabled>...Select...</option>   
+                <option value="Payment at Counter">Payment at Counter</option>
+                   </select> 
+
+            
+                     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+               
+                   <label for="PDM">Pass Delivery Mode:</label>
+                <select name="PDM" id="PDM">
+                <option value="" selected disabled>...Select...</option>   
+                <option value="Online">Online</option>
+                <option value="Offline">Offline</option>
+                   </select> <br><br>
+
+                     
+                   <label for="center">Center at which You want to Collect Pass:</label>
+                <select name="PDM" id="PDM">
+                <option value="" selected disabled>...Select...</option>   
+                <option value="Hyderabad bus stand">Hyderabad bus stand</option>
+                <option value="Ameerpet bus stand">Ameerpet bus stand</option>
+                   </select> 
+            </fieldset>
+            </td>
+                </tr>
+            </table>
+
+            <center>
+                <img src="https://images.fastcompany.com/image/upload/f_webp,c_fit,w_1920,q_auto/fc/captcha-internet-translate.jpg" alt="catcha image" width="160px">
+                &nbsp &nbsp &nbsp 
+                <img src="https://cdn-icons-png.flaticon.com/512/3039/3039437.png" alt="refresh" width="60px">
+            </center>
+             <br>
+            <center>
+                <label for="empty"></label>
+                <input type="text">
+                <br><br>
+                 
+                <input type="Submit" value="Submit">
+               
+            </center>
+            
+        </form>
+        </center>
+ 
+</body>
+</html>
